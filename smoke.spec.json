@@ -1,0 +1,12 @@
+{
+  "steps": [
+    { "tap": "Esplora una demo" },
+    { "wait": 2500 },
+    { "tap": "Ricordi" },
+    { "wait": 1200 },
+    { "tap": "Timeline" },
+    { "expect": "Milano" },
+    { "tap": "Gioca" },
+    { "expect": "Dove l'hai scattata?" }
+  ]
+}

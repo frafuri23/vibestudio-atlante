@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Atlante",
+    "slug": "atlante",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.frafuri.atlante",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch"
+        ],
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSPhotoLibraryUsageDescription": "This app accesses your photo library.",
+        "NSPhotoLibraryAddUsageDescription": "This app saves photos and videos to your library."
+      },
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.frafuri.atlante"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Atlante ha bisogno di accedere alle tue foto per creare la mappa dei ricordi.",
+          "savePhotosPermission": "Atlante ha bisogno di salvare le card condivise nella tua libreria foto.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "icon": "https://appspawn-gateway-production.up.railway.app/v1/assets/fe29a326-def4-5c43-a6aa-328450620f9b/icon-1790285057251.png",
+    "owner": "frafuri",
+    "extra": {
+      "eas": {
+        "projectId": "b02f1dbf-9b49-403b-af83-9bcb9e48413d"
+      },
+      "vibestudio": {
+        "proxy": "https://appspawn-gateway-production.up.railway.app/v1/app-proxy/fe29a326-def4-5c43-a6aa-328450620f9b",
+        "key": "919b9496d2c0226380de542438116a3c4b8a1cde"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b02f1dbf-9b49-403b-af83-9bcb9e48413d",
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0,
+      "requestHeaders": {
+        "expo-channel-name": "production"
+      }
+    },
+    "runtimeVersion": "1.0.0-n9b0211ac"
+  }
+}
